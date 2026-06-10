@@ -116,7 +116,7 @@ deteccao-fraude/
 │   └── app.py 
 │   └── gerador_de_arquivos.py    # Dados de entrada 
 │                       
-├── 2. Requirements.txt              # Dependências do projeto
+├── requirements.txt              # Dependências do projeto
 ├── README.md                     # Documentação do projeto
 │
 ├── 4. Notebooks/
