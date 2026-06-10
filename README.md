@@ -112,22 +112,25 @@ Apresentou o melhor desempenho em **AUC-PR** — a métrica mais informativa par
 ```
 deteccao-fraude/
 │
-├── app.py                        # Aplicação Streamlit
-├── requirements.txt              # Dependências do projeto
+├── 1. Streamlit/                 # Aplicação Streamlit
+│   └── app.py 
+│   └── gerador_de_arquivos.py    # Dados de entrada 
+│                       
+├── 2. Requirements.txt              # Dependências do projeto
 ├── README.md                     # Documentação do projeto
 │
-├── notebooks/
+├── 4. Notebooks/
 │   └── notebook_atualizado.ipynb # Notebook revisado (P2)
 │
-├── model/
+├── 5. Model/
 │   ├── modelo_final.joblib       # Modelo Random Forest treinado
 │   └── scaler.joblib             # StandardScaler para pré-processamento
 │
-├── reports/
+├── 6. Reports/
 │   └── relatorio_atualizado.pdf  # Relatório final
 │
-└── data/
-    └── README_data.md            # Instruções para obter o dataset
+└── 7. Data/
+    └── LinkCSV.txt               # Dataset de treinamento
 ```
 
 ---
@@ -174,8 +177,7 @@ deteccao-fraude/
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
-   cd SEU_REPOSITORIO
+   git clone https://github.com/chadommas/Deteccao_de_Fraudes_P2
    ```
 
 2. Instale as dependências:
