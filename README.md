@@ -203,7 +203,7 @@ deteccao-fraude/
 
 ## Link do App Publicado
 
-🔗 **[LINK DO STREAMLIT AQUI]**
+🔗 (https://deteccaodefraude.streamlit.app/)
 
 ---
 
